@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/map-of-shelters/static/css/main.176682e1.css",
+    "main.js": "/map-of-shelters/static/js/main.13e0bf2f.js",
+    "index.html": "/map-of-shelters/index.html",
+    "main.176682e1.css.map": "/map-of-shelters/static/css/main.176682e1.css.map",
+    "main.13e0bf2f.js.map": "/map-of-shelters/static/js/main.13e0bf2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.176682e1.css",
+    "static/js/main.13e0bf2f.js"
+  ]
+}
