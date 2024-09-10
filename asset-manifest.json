@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/map-of-shelters/static/css/main.6c18dfaa.css",
-    "main.js": "/map-of-shelters/static/js/main.62d0d257.js",
+    "main.css": "/map-of-shelters/static/css/main.1317a0a5.css",
+    "main.js": "/map-of-shelters/static/js/main.1b6fef57.js",
     "static/media/gerb2.png": "/map-of-shelters/static/media/gerb2.57566d10e8d624d53f75.png",
     "index.html": "/map-of-shelters/index.html",
-    "main.6c18dfaa.css.map": "/map-of-shelters/static/css/main.6c18dfaa.css.map",
-    "main.62d0d257.js.map": "/map-of-shelters/static/js/main.62d0d257.js.map"
+    "main.1317a0a5.css.map": "/map-of-shelters/static/css/main.1317a0a5.css.map",
+    "main.1b6fef57.js.map": "/map-of-shelters/static/js/main.1b6fef57.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c18dfaa.css",
-    "static/js/main.62d0d257.js"
+    "static/css/main.1317a0a5.css",
+    "static/js/main.1b6fef57.js"
   ]
 }
