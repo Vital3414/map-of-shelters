@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(0, 159, 65);
 }
 
 code {
@@ -16,9 +17,142 @@ code {
 
 li {
   list-style: none;
+  border: 2px solid rgb(30, 100, 65);
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: rgb(30, 100, 65);
+  transition: background-color 1s ease;
+}
+
+li:hover {
+  background-color: rgb(255, 238, 0);
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+h1 {
+  margin-bottom: 5px;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 238, 0);
+  transition: color 0.5s ease;
+  padding: 10px 10px;
+}
+
+a:hover {
+  color: rgb(30, 100, 65);
+}
+
+.text-all {
+  margin-top: 10px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  width: 400px;
+}
+
+.part1 {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border: 1px solid rgb(30, 100, 65);
+  border-radius: 15px;
+  background-color: rgb(30, 100, 65);
+  width: 400px;
+  height: 30px;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+  color: rgb(255, 238, 0);
+}
+
+button:hover {
+  background-color: rgb(255, 238, 0);
+  transform: scale(1.2);
+  color: rgb(30, 100, 65);
+}
+
+button:active {
+  transform: scale(1.2);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-text {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-footer {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-gost {
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-btn {
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-sel {
+  width: 400px;
+}
+
+.horenka-text {
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
