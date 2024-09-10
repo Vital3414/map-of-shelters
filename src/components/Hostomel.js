@@ -204,7 +204,7 @@ export const Hostomel = () => {
   return (
     <div className="wrapper-gost">
       <h2>Виберіть тип укриття:</h2>
-      <div className="btn">
+      <div className="btn btn-host">
         <button onClick={() => setSelectedPart(1)}>Найпростіші укриття</button>
         <button onClick={() => setSelectedPart(2)}>Підвали будинків</button>
       </div>
