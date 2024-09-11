@@ -120,6 +120,8 @@ button:active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .wrapper-text {
@@ -181,6 +183,29 @@ button:active {
   padding: 20px 20px;
   border: 1px solid rgb(30, 100, 65);
   border-radius: 10px;
+}
+
+.moschun-foot {
+  margin-bottom: 50px;
+}
+
+.punkt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.punkt-title {
+  margin-bottom: 20px;
+}
+
+.punkt-image {
+  width: 320px;
+  /* height: 200px; */
+  display: block;
+  margin: 20px auto;
 }
 
 /* ======================================================================================================================= */
