@@ -205,8 +205,12 @@ export const Hostomel = () => {
     <div className="wrapper-gost">
       <h2>Виберіть тип укриття:</h2>
       <div className="btn btn-host">
-        <button onClick={() => setSelectedPart(1)}>Найпростіші укриття</button>
-        <button onClick={() => setSelectedPart(2)}>Підвали будинків</button>
+        <button onClick={() => setSelectedPart(1)} className="hostomel-ukr">
+          Найпростіші укриття
+        </button>
+        <button onClick={() => setSelectedPart(2)} className="hostomel-ukr">
+          Підвальні приміщення де можна перебувати тимчасово
+        </button>
       </div>
 
       {selectedPart === 1 && part1}
