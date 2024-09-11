@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/map-of-shelters/static/css/main.62e701ea.css",
-    "main.js": "/map-of-shelters/static/js/main.1b6fef57.js",
+    "main.css": "/map-of-shelters/static/css/main.2f47a531.css",
+    "main.js": "/map-of-shelters/static/js/main.24d7a3e0.js",
     "static/media/gerb2.png": "/map-of-shelters/static/media/gerb2.57566d10e8d624d53f75.png",
+    "static/media/punkt.jpg": "/map-of-shelters/static/media/punkt.7d933b958049ba3953fd.jpg",
     "index.html": "/map-of-shelters/index.html",
-    "main.62e701ea.css.map": "/map-of-shelters/static/css/main.62e701ea.css.map",
-    "main.1b6fef57.js.map": "/map-of-shelters/static/js/main.1b6fef57.js.map"
+    "main.2f47a531.css.map": "/map-of-shelters/static/css/main.2f47a531.css.map",
+    "main.24d7a3e0.js.map": "/map-of-shelters/static/js/main.24d7a3e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.62e701ea.css",
-    "static/js/main.1b6fef57.js"
+    "static/css/main.2f47a531.css",
+    "static/js/main.24d7a3e0.js"
   ]
 }
