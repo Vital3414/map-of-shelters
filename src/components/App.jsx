@@ -53,7 +53,7 @@ export const App = () => {
         {/* Горенка */}
         <div className="wrapper-btn">
           <button onClick={() => toggleLocation('Horenka')}>
-            Розміщені у селищі Горенка за адресами
+            Розміщені у селі Горенка за адресами
           </button>
           {selectedLocation === 'Horenka' && <Horenka />}
         </div>
@@ -61,7 +61,7 @@ export const App = () => {
         {/* Озера */}
         <div className="wrapper-btn">
           <button onClick={() => toggleLocation('Ozera')}>
-            Розміщені у селищі Озера за адресами
+            Розміщені у селі Озера за адресами
           </button>
           {selectedLocation === 'Ozera' && <Ozera />}
         </div>
